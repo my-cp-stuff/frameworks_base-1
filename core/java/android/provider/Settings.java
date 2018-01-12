@@ -5371,6 +5371,12 @@ public final class Settings {
         public static final String LOCKSCREEN_STATUS_BAR = "lockscreen_status_bar";
 
         /**
+         * Defines the screen-off animation to display
+         * @hide
+         */
+        public static final String SCREEN_OFF_ANIMATION = "screen_off_animation";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
@@ -5499,6 +5505,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(STATUS_BAR_CLOCK);
             PRIVATE_SETTINGS.add(STATUS_BAR_AM_PM);
             PRIVATE_SETTINGS.add(QS_TILE_STYLE);
+            PRIVATE_SETTINGS.add(SCREEN_OFF_ANIMATION);
         }
 
         /**
