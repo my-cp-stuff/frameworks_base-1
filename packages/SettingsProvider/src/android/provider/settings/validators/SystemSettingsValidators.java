@@ -220,5 +220,6 @@ public class SystemSettingsValidators {
         VALIDATORS.put(System.AOD_NOTIFICATION_PULSE, BOOLEAN_VALIDATOR);
         VALIDATORS.put(System.NOTIFICATION_PULSE_ACCENT, BOOLEAN_VALIDATOR);
         VALIDATORS.put(System.NOTIFICATION_PULSE_COLOR_AUTOMATIC, BOOLEAN_VALIDATOR);
+        VALIDATORS.put(System.STATUS_BAR_CLOCK, new InclusiveIntegerRangeValidator(0, 2));
     }
 }
