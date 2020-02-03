@@ -5109,6 +5109,11 @@ public final class Settings {
         public static final String NOTIFICATION_PULSE_DURATION = "ambient_notification_light_duration";
 
         /**
+         * @hide
+         */
+        public static final String AMBIENT_LIGHT_PULSE_FOR_ALL = "ambient_light_pulse_for_all";
+
+        /**
          * Whether to show the clock in the right or left position or show it in the center
          * 0: show the clock in the right position (LTR)
          * 1: show the clock in the center
