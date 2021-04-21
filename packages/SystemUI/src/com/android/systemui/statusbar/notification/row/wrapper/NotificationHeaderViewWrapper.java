@@ -31,6 +31,8 @@ import android.view.animation.PathInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.os.UserHandle;
+import android.provider.Settings;
 
 import com.android.internal.widget.CachingIconView;
 import com.android.internal.widget.NotificationExpandButton;
@@ -77,6 +79,7 @@ public class NotificationHeaderViewWrapper extends NotificationViewWrapper {
     private boolean mTransformLowPriorityTitle;
     private boolean mShowExpandButtonAtEnd;
     private Context mContext;
+    boolean NewHeaderIconStyle;
 
     protected NotificationHeaderViewWrapper(Context ctx, View view, ExpandableNotificationRow row) {
         super(ctx, view, row);
@@ -114,6 +117,8 @@ public class NotificationHeaderViewWrapper extends NotificationViewWrapper {
                 }, TRANSFORMING_VIEW_TITLE);
         resolveHeaderViews(row);
         addAppOpsOnClickListener(row);
+        NewHeaderIconStyle = Settings.System.getIntForUser(mContext.getContentResolver(),
+                Settings.System.HEADER_ICONS_STYLE, 0, UserHandle.USER_CURRENT) == 1;
     }
 
     protected void resolveHeaderViews(ExpandableNotificationRow row) {
@@ -181,6 +186,9 @@ public class NotificationHeaderViewWrapper extends NotificationViewWrapper {
         updateCropToPaddingForImageViews();
         Notification notification = row.getEntry().getSbn().getNotification();
 
+        if (!NewHeaderIconStyle) {
+            mIcon.setTag(ImageTransformState.ICON_TAG, notification.getSmallIcon());
+        } else {
         String pkgname = row.getEntry().getSbn().getPackageName();
         Drawable icon = null;
         try {
@@ -193,7 +201,7 @@ public class NotificationHeaderViewWrapper extends NotificationViewWrapper {
         // The work profile image is always the same lets just set the icon tag for it not to
         // animate
         mWorkProfileImage.setTag(ImageTransformState.ICON_TAG, notification.getSmallIcon());
-
+      }
         // We need to reset all views that are no longer transforming in case a view was previously
         // transformed, but now we decided to transform its container instead.
         ArraySet<View> currentViews = mTransformationHelper.getAllTransformingViews();
