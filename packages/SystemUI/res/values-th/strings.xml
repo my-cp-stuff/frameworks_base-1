@@ -108,10 +108,8 @@
     <string name="screenrecord_resume_label" msgid="4972223043729555575">"ทำต่อ"</string>
     <string name="screenrecord_cancel_label" msgid="7850926573274483294">"ยกเลิก"</string>
     <string name="screenrecord_share_label" msgid="5025590804030086930">"แชร์"</string>
-    <string name="screenrecord_delete_label" msgid="1376347010553987058">"ลบ"</string>
     <string name="screenrecord_cancel_success" msgid="1775448688137393901">"ยกเลิกการบันทึกหน้าจอแล้ว"</string>
     <string name="screenrecord_save_message" msgid="490522052388998226">"บันทึกการบันทึกหน้าจอแล้ว แตะเพื่อดู"</string>
-    <string name="screenrecord_delete_description" msgid="1604522770162810570">"ลบการบันทึกหน้าจอแล้ว"</string>
     <string name="screenrecord_delete_error" msgid="2870506119743013588">"เกิดข้อผิดพลาดในการลบการบันทึกหน้าจอ"</string>
     <string name="screenrecord_permission_error" msgid="7856841237023137686">"ขอสิทธิ์ไม่สำเร็จ"</string>
     <string name="screenrecord_start_error" msgid="2200660692479682368">"เกิดข้อผิดพลาดขณะเริ่มบันทึกหน้าจอ"</string>
@@ -1100,6 +1098,7 @@
     <string name="media_output_dialog_disconnected" msgid="1834473104836986046">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> (ยกเลิกการเชื่อมต่อแล้ว)"</string>
     <string name="media_output_dialog_connect_failed" msgid="3225190634236259010">"เชื่อมต่อไม่ได้ ลองใหม่"</string>
     <string name="media_output_dialog_pairing_new" msgid="9099497976087485862">"จับคู่อุปกรณ์ใหม่"</string>
+    <string name="media_output_title" msgid="115223550977351699">"เล่นสื่อไปยัง"</string>
     <string name="battery_state_unknown_notification_title" msgid="8464703640483773454">"พบปัญหาในการอ่านเครื่องวัดแบตเตอรี่"</string>
     <string name="battery_state_unknown_notification_text" msgid="13720937839460899">"แตะดูข้อมูลเพิ่มเติม"</string>
 </resources>

@@ -108,10 +108,8 @@
     <string name="screenrecord_resume_label" msgid="4972223043729555575">"Resume"</string>
     <string name="screenrecord_cancel_label" msgid="7850926573274483294">"Cancel"</string>
     <string name="screenrecord_share_label" msgid="5025590804030086930">"Share"</string>
-    <string name="screenrecord_delete_label" msgid="1376347010553987058">"Delete"</string>
     <string name="screenrecord_cancel_success" msgid="1775448688137393901">"Screen recording cancelled"</string>
     <string name="screenrecord_save_message" msgid="490522052388998226">"Screen recording saved, tap to view"</string>
-    <string name="screenrecord_delete_description" msgid="1604522770162810570">"Screen recording deleted"</string>
     <string name="screenrecord_delete_error" msgid="2870506119743013588">"Error deleting screen recording"</string>
     <string name="screenrecord_permission_error" msgid="7856841237023137686">"Failed to get permissions"</string>
     <string name="screenrecord_start_error" msgid="2200660692479682368">"Error starting screen recording"</string>
@@ -467,10 +465,10 @@
     <string name="interruption_level_none_twoline" msgid="8579382742855486372">"Total\nsilence"</string>
     <string name="interruption_level_priority_twoline" msgid="8523482736582498083">"Priority\nonly"</string>
     <string name="interruption_level_alarms_twoline" msgid="2045067991335708767">"Alarms\nonly"</string>
-    <string name="keyguard_indication_charging_time_wireless" msgid="7343602278805644915">"<xliff:g id="PERCENTAGE">%2$s</xliff:g>Charging wirelessly (<xliff:g id="CHARGING_TIME_LEFT">%1$s</xliff:g> until full)"</string>
-    <string name="keyguard_indication_charging_time" msgid="4927557805886436909">"<xliff:g id="PERCENTAGE">%2$s</xliff:g>Charging (<xliff:g id="CHARGING_TIME_LEFT">%1$s</xliff:g> until full)"</string>
-    <string name="keyguard_indication_charging_time_fast" msgid="7895986003578341126">"<xliff:g id="PERCENTAGE">%2$s</xliff:g>Charging rapidly (<xliff:g id="CHARGING_TIME_LEFT">%1$s</xliff:g> until full)"</string>
-    <string name="keyguard_indication_charging_time_slowly" msgid="245442950133408398">"<xliff:g id="PERCENTAGE">%2$s</xliff:g>Charging slowly (<xliff:g id="CHARGING_TIME_LEFT">%1$s</xliff:g> until full)"</string>
+    <string name="keyguard_indication_charging_time_wireless" msgid="7343602278805644915">"<xliff:g id="PERCENTAGE">%2$s</xliff:g> • Charging wirelessly (<xliff:g id="CHARGING_TIME_LEFT">%1$s</xliff:g> until full)"</string>
+    <string name="keyguard_indication_charging_time" msgid="4927557805886436909">"<xliff:g id="PERCENTAGE">%2$s</xliff:g> • Charging (<xliff:g id="CHARGING_TIME_LEFT">%1$s</xliff:g> until full)"</string>
+    <string name="keyguard_indication_charging_time_fast" msgid="7895986003578341126">"<xliff:g id="PERCENTAGE">%2$s</xliff:g> • Charging rapidly (<xliff:g id="CHARGING_TIME_LEFT">%1$s</xliff:g> until full)"</string>
+    <string name="keyguard_indication_charging_time_slowly" msgid="245442950133408398">"<xliff:g id="PERCENTAGE">%2$s</xliff:g> • Charging slowly (<xliff:g id="CHARGING_TIME_LEFT">%1$s</xliff:g> until full)"</string>
     <string name="accessibility_multi_user_switch_switcher" msgid="5330448341251092660">"Switch user"</string>
     <string name="accessibility_multi_user_switch_switcher_with_current" msgid="5759855008166759399">"Switch user, current user <xliff:g id="CURRENT_USER_NAME">%s</xliff:g>"</string>
     <string name="accessibility_multi_user_switch_inactive" msgid="383168614528618402">"Current user <xliff:g id="CURRENT_USER_NAME">%s</xliff:g>"</string>
@@ -856,7 +854,7 @@
     <string name="right_keycode" msgid="2480715509844798438">"Right keycode"</string>
     <string name="left_icon" msgid="5036278531966897006">"Left icon"</string>
     <string name="right_icon" msgid="1103955040645237425">"Right icon"</string>
-    <string name="drag_to_add_tiles" msgid="8933270127508303672">"Hold and drag to add tiles"</string>
+    <string name="drag_to_add_tiles" msgid="8933270127508303672">"Press on tiles to add or remove"</string>
     <string name="drag_to_rearrange_tiles" msgid="2143204300089638620">"Hold and drag to rearrange tiles"</string>
     <string name="drag_to_remove_tiles" msgid="4682194717573850385">"Drag here to remove"</string>
     <string name="drag_to_remove_disabled" msgid="933046987838658850">"You need at least <xliff:g id="MIN_NUM_TILES">%1$d</xliff:g> tiles"</string>
@@ -1100,6 +1098,7 @@
     <string name="media_output_dialog_disconnected" msgid="1834473104836986046">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> (disconnected)"</string>
     <string name="media_output_dialog_connect_failed" msgid="3225190634236259010">"Couldn\'t connect. Try again."</string>
     <string name="media_output_dialog_pairing_new" msgid="9099497976087485862">"Pair new device"</string>
+    <string name="media_output_title" msgid="115223550977351699">"Play media to"</string>
     <string name="battery_state_unknown_notification_title" msgid="8464703640483773454">"Problem reading your battery meter"</string>
     <string name="battery_state_unknown_notification_text" msgid="13720937839460899">"Tap for more information"</string>
 </resources>

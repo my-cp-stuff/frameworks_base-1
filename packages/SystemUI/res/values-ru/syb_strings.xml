@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2018-2020 Syberia Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="statusbar_items_title">Редактирование иконок</string>
+
+    <!-- Advanced restart -->
+    <string name="global_action_reboot">Перезагрузка</string>
+    <string name="global_action_reboot_system">Система</string>
+    <string name="global_action_reboot_progress">Перезагрузка\u2026</string>
+    <string name="global_action_reboot_recovery">Recovery</string>
+    <string name="global_action_reboot_recovery_progress">Перезагрузка в recovery\u2026</string>
+    <string name="global_action_reboot_bootloader">Bootloader</string>
+    <string name="global_action_reboot_bootloader_progress">Перезагрузка в bootloader\u2026</string>
+    <string name="global_action_reboot_fastboot">Fastboot</string>
+    <string name="global_action_reboot_fastboot_progress">Перезагрузка в fastboot\u2026</string>
+    <string name="global_action_settings">Настройки</string>
+    <string name="global_action_screenshot">Снимок экрана</string>
+    <string name="global_action_screenrecord">Запись экрана</string>
+    <string name="global_action_flashlight">Фонарик</string>
+
+    <!-- Label for current user in power menu options dialog -->
+    <string name="global_action_current_user">Текущий пользователь</string>
+
+    <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_dash_charging_time" formatted="false"><xliff:g id="percentage">%2$s</xliff:g> • Dash зарядка (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> до полной)</string>
+    <string name="keyguard_plugged_in_dash_charging">Dash зарядка</string>
+
+    <!-- QS Config -->
+    <string name="qs_menu_item_columns">Столбцы</string>
+    <string name="qs_menu_item_columns_landscape">Столбцы в альбомном режиме</string>
+    <string name="qs_menu_item_reset">Сброс</string>
+    <string name="qs_menu_item_qs_columns">Кол-во мал. плиток</string>
+    <string name="qs_menu_item_columns_auto">Авто</string>
+    <string name="qs_menu_item_titles">Отображать подписи</string>
+
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Переключить SIM на</string>
+    <string name="qs_data_switch_toast_0">Нет SIM карт</string>
+    <string name="qs_data_switch_toast_1">Установлена только одна SIM карта</string>
+    <string name="qs_data_switch_changed_1">Используется SIM 1 для передачи данных</string>
+    <string name="qs_data_switch_changed_2">Используется SIM 2 для передачи данных</string>
+
+    <string name="status_bar_data_saver">Экономия трафика</string>
+    <string name="status_bar_roaming">Роуминг</string>
+
+    <!-- QuickSettings: Sound [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_sound_label">Звук</string>
+    <string name="quick_settings_sound_ring">Звонок</string>
+    <string name="quick_settings_sound_vibrate">Вибрация</string>
+    <string name="quick_settings_sound_dnd">Не беспокоить</string>
+
+    <!-- Caffeine Tile -->
+    <string name="quick_settings_caffeine_label">Кофеин</string>
+
+    <!-- Reboot/Recovery QS Tile -->
+    <string name="quick_settings_reboot_label">Перезагрузка</string>
+    <string name="quick_settings_reboot_recovery_label">В рекавери</string>
+
+    <!-- Screenshot QS tile -->
+    <string name="quick_settings_screenshot_label">Снимок экрана</string>
+    <string name="quick_settings_region_screenshot_label">Снимок области</string>
+
+    <!-- Heads Up QS Tile -->
+    <string name="quick_settings_heads_up_label">Всплывающие уведомления</string>
+    <string name="accessibility_quick_settings_heads_up_off">Всплывающие уведомления отключены.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Всплывающие уведомления включены.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Всплывающие уведомления отключены.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Всплывающие уведомления включены.</string>
+
+    <!-- Gaming Mode -->
+    <string name="notification_channel_gaming">Игровой режим</string>
+    <string name="gaming_mode_not_enabled">Игровой режим отключен в настройках</string>
+    <string name="quick_settings_gaming_mode_label">Игровой режим</string>
+    <!-- Content description of the Gaming mode tile in quick settings when disabled (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_gaming_mode_disabled">Игровой режим выключен</string>
+    <!-- Content description of the Gaming mode tile in quick settings when enabled (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_gaming_mode_enabled">Игровой режим включен</string>
+
+    <!-- Language toggle tile -->
+    <string name="quick_settings_locale_label">Язык</string>
+    <string name="quick_settings_locale_more_locales_toast">Пожалуйста, настройте несколько языков чтобы активировать функционал плитки</string>
+
+    <!-- Name of the camera status bar icon. -->
+    <string name="status_bar_camera">Камера</string>
+    <!-- Name of the location status bar icon. -->
+    <string name="status_bar_location">Местоположение</string>
+    <!-- Name of the microphone status bar icon. -->
+    <string name="status_bar_microphone">Микрофон</string>
+
+    <!-- Kill button in notification guts -->
+    <string name="force_stop_dlg_title">Остановить принудительно?</string>
+    <string name="force_stop_dlg_text">Если вы принудительно остановите приложение, оно может работать неправильно</string>
+    <string name="guts_force_close_app">Закрыть приложение</string>
+
+    <!-- Long swipe gesture actions -->
+    <string name="app_picker_dialog_title">Выбор приложения</string>
+    <string name="active_edge_app_select_title">Выбор приложения</string>
+    <string name="active_edge_activity_select_title">Выбор активити</string>
+
+    <string name="task_helper_app_killed">%1$s принудительно остановлено</string>
+    <string name="empty_app_killed">Приложение</string>
+
+    <string name="screenrecord_delete_label">Удалить</string>
+    <string name="screenrecord_delete_description">Запись экрана удалена</string>
+
+    <!-- VPN QS tile -->
+    <string name="quick_settings_vpn_label">VPN</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Подключиться к\u2026</string>
+    <string name="vpn_credentials_hint">Пожалуйста, введите ваши учетные данные для подключения к <xliff:g id="name">%s</xliff:g></string>
+    <string name="vpn_credentials_username">Имя пользователя</string>
+    <string name="vpn_credentials_password">Пароль</string>
+    <string name="vpn_credentials_dialog_connect">Подключиться</string>
+
+    <!-- App Lock -->
+    <string name="applock_locked">&#160;заблокировано</string>
+    <string name="applock_fingerprint_face">, отпечаток пальца или лицо для разблокировки</string>
+    <string name="applock_face">&#160;или лицо для разблокировки</string>
+    <string name="applock_fingerprint">&#160;или отпечаток пальца для разблокировки</string>
+    <string name="applock_credential">&#160;для разблокировки</string>
+    <string name="applock_unlock">Разблокировано</string>
+
+    <!-- Alert slide extras -->
+    <string name="volume_ringer_priority_only">Приоритетные</string>
+    <string name="volume_ringer_alarms_only">Будильник</string>
+    <string name="volume_ringer_dnd">Не беспокоить</string>
+    <string name="tristate_flashlight">Фонарик</string>
+
+</resources>

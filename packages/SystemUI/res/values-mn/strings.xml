@@ -108,10 +108,8 @@
     <string name="screenrecord_resume_label" msgid="4972223043729555575">"Үргэлжлүүлэх"</string>
     <string name="screenrecord_cancel_label" msgid="7850926573274483294">"Цуцлах"</string>
     <string name="screenrecord_share_label" msgid="5025590804030086930">"Хуваалцах"</string>
-    <string name="screenrecord_delete_label" msgid="1376347010553987058">"Устгах"</string>
     <string name="screenrecord_cancel_success" msgid="1775448688137393901">"Дэлгэцийн бичлэгийг цуцалсан"</string>
     <string name="screenrecord_save_message" msgid="490522052388998226">"Дэлгэцийн бичлэгийг хадгалсан. Харахын тулд товшино уу"</string>
-    <string name="screenrecord_delete_description" msgid="1604522770162810570">"Дэлгэцийн бичлэгийг устгасан"</string>
     <string name="screenrecord_delete_error" msgid="2870506119743013588">"Дэлгэцийн бичлэгийг устгахад алдаа гарлаа"</string>
     <string name="screenrecord_permission_error" msgid="7856841237023137686">"Зөвшөөрөл авч чадсангүй"</string>
     <string name="screenrecord_start_error" msgid="2200660692479682368">"Дэлгэцийн бичлэгийг эхлүүлэхэд алдаа гарлаа"</string>
@@ -1100,6 +1098,7 @@
     <string name="media_output_dialog_disconnected" msgid="1834473104836986046">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> (салсан)"</string>
     <string name="media_output_dialog_connect_failed" msgid="3225190634236259010">"Холбогдож чадсангүй. Дахин оролдоно уу."</string>
     <string name="media_output_dialog_pairing_new" msgid="9099497976087485862">"Шинэ төхөөрөмж хослуулах"</string>
+    <string name="media_output_title" msgid="115223550977351699">"Медиаг дараахад тоглуулна уу"</string>
     <string name="battery_state_unknown_notification_title" msgid="8464703640483773454">"Таны батарей хэмжигчийг уншихад асуудал гарлаа"</string>
     <string name="battery_state_unknown_notification_text" msgid="13720937839460899">"Нэмэлт мэдээлэл авахын тулд товшино уу"</string>
 </resources>

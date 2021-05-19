@@ -108,10 +108,8 @@
     <string name="screenrecord_resume_label" msgid="4972223043729555575">"재개"</string>
     <string name="screenrecord_cancel_label" msgid="7850926573274483294">"취소"</string>
     <string name="screenrecord_share_label" msgid="5025590804030086930">"공유"</string>
-    <string name="screenrecord_delete_label" msgid="1376347010553987058">"삭제"</string>
     <string name="screenrecord_cancel_success" msgid="1775448688137393901">"화면 녹화가 취소되었습니다."</string>
     <string name="screenrecord_save_message" msgid="490522052388998226">"화면 녹화본이 저장되었습니다. 확인하려면 탭하세요."</string>
-    <string name="screenrecord_delete_description" msgid="1604522770162810570">"화면 녹화가 삭제되었습니다."</string>
     <string name="screenrecord_delete_error" msgid="2870506119743013588">"화면 녹화는 삭제하는 중에 오류가 발생했습니다."</string>
     <string name="screenrecord_permission_error" msgid="7856841237023137686">"권한을 확보하지 못했습니다."</string>
     <string name="screenrecord_start_error" msgid="2200660692479682368">"화면 녹화 시작 중 오류 발생"</string>
@@ -1100,6 +1098,7 @@
     <string name="media_output_dialog_disconnected" msgid="1834473104836986046">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>(연결 끊김)"</string>
     <string name="media_output_dialog_connect_failed" msgid="3225190634236259010">"연결할 수 없습니다. 다시 시도하세요."</string>
     <string name="media_output_dialog_pairing_new" msgid="9099497976087485862">"새 기기와 페어링"</string>
+    <string name="media_output_title" msgid="115223550977351699">"미디어 출력 대상"</string>
     <string name="battery_state_unknown_notification_title" msgid="8464703640483773454">"배터리 수준을 읽는 중에 문제가 발생함"</string>
     <string name="battery_state_unknown_notification_text" msgid="13720937839460899">"탭하여 자세한 정보를 확인하세요."</string>
 </resources>
