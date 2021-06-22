@@ -160,6 +160,11 @@ interface IStatusBarService
      * DerpFest
      */
     void toggleCameraFlash();
+    void toggleRecentApps();
+    void toggleSplitScreen();
+    void preloadRecentApps();
+    void cancelPreloadRecentApps();
+    void startAssist(in Bundle args);
     void killForegroundApp();
     void screenPinningStateChanged(boolean enabled);
 
